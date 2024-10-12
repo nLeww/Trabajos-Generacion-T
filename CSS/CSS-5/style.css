@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7e6d1;
+  }
+
+  footer{
+    justify-content: right;
+    position: absolute;
+    bottom:0;
+    right: 0;
+
+  }
+  
+  .pancho {
+    width: 200px;
+    height: 120px;
+    position: relative;
+  }
+  
+  .salchicha {
+    width: 230px;
+    height: 30px; 
+    background-color: #9e652e;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .pan-arriba,
+  .pan-abajo {
+    width: 200px;
+    height: 30px;
+    background-color: #ffd168;
+    position: absolute;
+  }
+  
+  .pan-arriba {
+    top: 0;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .pan-abajo {
+    bottom: 0;
+    border-radius: 0 0 15px 15px;
+  }
+  
