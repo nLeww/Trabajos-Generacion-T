@@ -1,0 +1,23 @@
+body {
+    background-image: url(https://thumbs.dreamstime.com/b/black-white-radial-comics-style-lines-transparent-background-manga-action-speed-abstract-black-white-radial-comics-104645712.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+  }
+  
+  .container {
+    background: lightslategray;
+    width: 600px;
+    border-radius: 10px;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  input {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+  }
+  
